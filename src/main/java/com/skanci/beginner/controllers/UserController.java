@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.skanci.beginner.entities.User;
 import com.skanci.beginner.services.UserService;
 
+
 @RestController
 @RequestMapping(value="/users", consumes="application/json")
 public class UserController {
